@@ -12,7 +12,7 @@ public class User {
         return "User{" +
                 "name='" + name + '\'' +
                 ", lastName='" + lastName + '\'' +
-                '}';
+                "  }";
     }
 
     public User(String name, String lastName, String login, String password) {
